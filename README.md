@@ -39,14 +39,9 @@ With this repo, I aim to gain **deep understanding** across multiple domains:
 
 ---
 
-## 🔭 Future Plans
-
-- Add unit tests without AI assistance  
-- Perform refactoring guided solely by my own design  
-- Organize into well-structured modules/packages
-
----
-
 ## 💬 Feedback
 
 If you have ideas or suggestions, feel free to open an issue!  
+
+
+> This README was created with the help of AI
