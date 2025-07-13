@@ -2,6 +2,10 @@
 <html lang="el">
 <head>
   <meta charset="UTF-8">
+
+  <link rel="icon" href="../data/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+
   <title>Choose Your Difficultiy</title>
   <style>
     body { font-family: sans-serif; padding: 1rem; }
@@ -10,19 +14,19 @@
   </style>
 </head>
 <body>
-
-  <label for="projectSelect">Επίλεξε ένα project:</label><br>
-  <select id="projectSelect">
-    <option value="0">Easy</option>
-    <option value="1">Medium</option>
-    <option value="2">Hard</option>
-    <option value="3">Torture</option>
-  </select>
-  <br>
-
-  <button id="lockBtn">Generate</button>
-
+  <div class="controls">
+    <label for="projectSelect">Chose Your Difficultiy:</label><br>
+    <select id="projectSelect">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+      <option value="torture">Torture</option>
+    </select>
+    <br>
+  
+    <button id="lockBtn">Generate</button>
+  </div>
   <div id="result"></div>
-  <script src="pickerLogic.js"></script>
+  <script type="module" src="logic.js"></script>
 </body>
 </html>

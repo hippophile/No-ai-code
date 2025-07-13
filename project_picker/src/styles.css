@@ -1,0 +1,153 @@
+/* === 1. Global & Layout === */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  /* απαλό gradient background */
+  background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* αφήνει χώρο για το controls ψηλά */
+  justify-content: flex-start;
+  font-family: sans-serif;
+}
+
+/* === 2. Controls Panel === */
+.controls {
+  margin-top: 40px;
+  background: rgba(255,255,255,0.9);
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.controls label {
+  font-weight: 500;
+  color: #07457e;
+}
+
+.controls select {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.controls select:hover {
+  border-color: #07457e;
+}
+
+#lockBtn {
+  padding: 0.6rem 1.2rem;
+  background-color: #07457e;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#lockBtn:hover {
+  background-color: #053556;
+}
+
+/* === 3. Result Card === */
+#result {
+  margin-top: 30px;
+  /* για να πάρει το μέγεθος της κάρτας */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#result .card {
+  background: #e1f5fe;          /* light-blue φόντο */
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.12),
+    0 2px 6px rgba(0, 0, 0, 0.08);
+  max-width: 320px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+#result .card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.15),
+    0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .project-name {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+  color: #01579b;
+}
+
+.card .project-difficulty {
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 1rem;
+  background: #81d4fa;
+  color: #01579b;
+  font-weight: 500;
+}
+
+/* === Styled Controls Panel as Card === */
+.controls {
+  background: #e1f5fe;               /* ίδιο light-blue φόντο */
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.12),
+    0 2px 6px rgba(0, 0, 0, 0.08);
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 40px;
+}
+
+/* Κάνουμε το label όπως το project-name */
+.controls label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #01579b;
+}
+
+/* Dropdown με accent border */
+.controls select {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid #81d4fa;
+  background: #fff;
+  color: #01579b;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.controls select:hover {
+  border-color: #01579b;
+}
+
+/* Κουμπί με inverse χρωματισμό */
+.controls button {
+  padding: 0.6rem 1.2rem;
+  background-color: #01579b;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.controls button:hover {
+  background-color: #014a82;
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Static Portfolio Website",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "To-Do List App with Local Storage",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Simple Calculator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Personal Blog with Markdown Support",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Random Quote Generator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Landing Page with CSS Grid",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "JavaScript Clock",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Color Picker Tool",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "CSS Animation Demo",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Responsive Navbar",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "CSS Flexbox Photo Gallery",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "HTML5 Canvas Drawing",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Tip Calculator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "BMI Calculator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Quiz Flashcards",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Countdown Timer",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Random Password Generator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "URL Shortener Frontend",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Theme Switcher (Dark/Light)",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Scroll-to-Top Button",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Accordion FAQ Section",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Simple RSS Reader",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Currency Converter UI",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Color Palette Generator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Progress Bar Component",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Modal Popup Component",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Tooltips with CSS",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Data Table Sort/Filter",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Newsletter Signup Form",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Star Rating Widget",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Expense Tracker with Charts",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Markdown Previewer",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Recipe Finder App with API",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Movie Search App with Autocomplete",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Chat Application with WebSockets",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "GitHub Issues Viewer",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Drag-and-Drop Kanban Board",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Quiz App with Timer and Scoring",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Image Gallery with Lazy Loading",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Password Manager with Encryption",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Blog Platform with CMS Features",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "E-commerce Store Frontend",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Social Media Feed Reader",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Interactive World Map with Data Visualization",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Task Scheduler with Notifications",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Virtual Keyboard Emulator",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Music Player with Playlists",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Video Chat App using WebRTC",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Online Whiteboard with Drawing Tools",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Multiplayer Tic-Tac-Toe",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "API Gateway with Rate Limiting",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "File Upload & Management System",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Photo Filter Editor",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Podcast Aggregator App",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Forum Platform with User Roles",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Personal Finance Dashboard",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Live Sports Scoreboard",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Blog Comment Moderation Tool",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Code Snippet Manager",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "RESTful API with Authentication",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Real-Time Collaborative Editor",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Image Classifier with Convolutional Neural Network",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Recommendation Engine using Collaborative Filtering",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Blockchain-Based Voting System Prototype",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Augmented Reality Product Preview",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Multiplayer Game Lobby System",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Custom Browser Extension with Complex UI",  
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Machine Translation Service Prototype",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Autonomous Drone Control System",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Deep Reinforcement Learning Agent",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Augmented Reality Navigation App",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Biometric Authentication System",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Distributed Ledger for Supply Chain",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Video Game Physics Engine",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Voice Recognition Assistant",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Large-Scale Graph Analytics Platform",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Neural Style Transfer Application",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Predictive Maintenance System",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Virtual Reality Game",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Cloud Infrastructure Provisioning Tool",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Genetic Algorithm Optimizer",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Real-Time Fraud Detection System",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "IoT Sensor Data Aggregator",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Real-Time Speech Translation",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Blockchain Smart Contract Platform",
+    "difficulty": "hard",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Facial Recognition Security System",
+    "difficulty": "hard",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Custom Mini-Compiler for a Simple Language",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Neural Network Library from Scratch",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Self-Driving Car Simulator Module",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "High-Frequency Trading Bot Prototype",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Quantum Circuit Simulator",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Live 3D Rendering Engine",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Brain-Computer Interface Prototype",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Genetic Programming Framework",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Fault-Tolerant Distributed Database",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Large Scale Weather Simulation",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  }
+]
