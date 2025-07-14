@@ -21,5 +21,7 @@ A simple web app that helps you pick a coding project based on difficulty.
 
 # Use Of Ai 
 
-I used ai in this project to make the css file
-and to help me understand some js basics (as it is my first time using it)
+## 🤖 Use of AI
+
+- **CSS brainstorming**: AI helped me generate and refine the styling in `styles.css`.  
+- **JavaScript learning**: AI assisted with explanations of core JS concepts (this is my first vanilla-JS project).
