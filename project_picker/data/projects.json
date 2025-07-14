@@ -478,5 +478,156 @@
     "name": "Large Scale Weather Simulation",
     "difficulty": "torture",
     "environment": "VS Code"
+  },
+  {
+    "name": "AI-Powered Code Review System",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Custom Operating System Kernel Module",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Real-Time Emotion Recognition System",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Distributed AI Training Framework",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Advanced Cryptographic Protocol Implementation",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Custom Virtual Machine for a New Language",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Real-Time Traffic Simulation Engine",
+    "difficulty": "torture",
+    "environment": "VS Code"
+  },
+  {
+    "name": "AI-Driven Game Level Generator",
+    "difficulty": "torture",
+    "environment": "Kaggle"
+  },
+  {
+    "name": "Mood-Based Music Mixer",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Interactive CSS Art Playground",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Geo-Tagged Photo Journal",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Daily Habit Tracker",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Recipe Roulette",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Animated SVG Character Creator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Real-Time Currency Converter",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Kanban Board with Drag-and-Drop",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Random Story Prompt Generator",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Personalized Daily Dashboard",
+    "difficulty": "easy",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Smart To-Do List with Voice Input",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "AR Greeting Card (WebXR)",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Multiplayer Drawing Canvas",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Virtual Pet Simulator (Browser-Based)",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Collaborative Playlist Maker",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Meme Template Generator",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Music Visualizer with Web Audio API",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Real-Time Polling App",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Dynamic Data Dashboard (D3.js + API)",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Interactive Branching Story",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "3D Model Viewer (Three.js)",
+    "difficulty": "medium",
+    "environment": "VS Code"
+  },
+  {
+    "name": "Web-Based Escape Room Game",
+    "difficulty": "medium",
+    "environment": "VS Code"
   }
 ]
+
