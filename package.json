@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hippophile/No-ai-code/issues"
   },
-  "homepage": "https://github.com/hippophile/No-ai-code#readme"
+  "homepage": "https://github.com/hippophile/No-ai-code#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
