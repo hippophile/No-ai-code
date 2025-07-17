@@ -1,0 +1,36 @@
+<!-- Jul 13 2025 - jul 13 2025
+ For project 00 I'll make a simple project picker where the user (me) recives random project from the difficultiy he selected.--> 
+
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="icon" href="../data/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Choose Your Difficultiy</title>
+  <style>
+    body { font-family: sans-serif; padding: 1rem; }
+    select, button { margin: .5rem 0; padding: .3rem; }
+    #result { margin-top: 1rem; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <label for="projectSelect">Chose Your Difficultiy:</label><br>
+    <select id="projectSelect">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+      <option value="torture">Torture</option>
+    </select>
+    <br>
+  
+    <button id="lockBtn">Generate</button>
+  </div>
+  <div id="result"></div>
+  <script type="module" src="logic.js"></script>
+</body>
+</html>

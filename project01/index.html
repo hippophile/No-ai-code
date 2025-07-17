@@ -1,0 +1,41 @@
+<!-- Jul 15 2025 - (in jul 17 this project was paused)
+ For project 01 I'll make a simple weather app that shows you real data for your city.--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js">   </script>
+</head>
+<body>
+    
+    <div class="inputs">
+      <input id="city-input" type="text" name="text" class="input" placeholder="Your City" required="">
+    </div>
+    
+    <button id="search-btn-light" class="bn632-hover bn26">Weather</button>
+    <button id="search-btn-dark" class="bn632-hover bn25">Weather</button>
+
+    <div id="result" style="display: none;"></div>
+
+    <div class="toggle-wrapper">
+        <label>
+            <input id="toggle-checkbox" class='toggle-checkbox' type='checkbox' />
+            <div class='toggle-slot'>
+                <div class='sun-icon-wrapper'>
+                    <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                </div>
+                <div class='toggle-button'></div>
+                <div class='moon-icon-wrapper'>
+                    <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                </div>
+            </div>
+        </label>
+    </div>
+        <script type="module" src="logic.js"></script>
+</body>
+</html>
