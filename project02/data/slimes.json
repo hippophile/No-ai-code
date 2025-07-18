@@ -1,0 +1,50 @@
+{
+  "puddle-slime": {
+    "quote": "Stay calm and ripple on.",
+    "sound": "../data/audio/puddle.mp3"
+  },
+  "honey-slime": {
+    "quote": "Sweet things are worth the buzz.",
+    "sound": "../data/audio/beep.mp3"
+  },
+  "pink-slime": {
+    "quote": "Smile! Even gooey blobs can shine.",
+    "sound": "../data/audio/beat.mp3"
+  },
+  "tar-slime": {
+    "quote": "Even chaos has a purpose.",
+    "sound": "../data/audio/tar.mp3"
+  },
+  "golden-slime": {
+    "quote": "You just struck pure luck!",
+    "sound": "../data/audio/boop.mp3"
+  },
+  "boom-slime": {
+    "quote": "BOOM! Don’t bottle it up!",
+    "sound": "../data/audio/bite.mp3"
+  },
+  "gold-cat": {
+    "quote": "Pounce on golden moments.",
+    "sound": "../data/audio/kitty.mp3"
+  },
+  "fire-slime": {
+    "quote": "Warm, wild and wonderful.",
+    "sound": "../data/audio/fire.mp3"
+  },
+  "crystal-slime": {
+    "quote": "Sharp minds sparkle brighter.",
+    "sound": "../data/audio/ruins2.mp3"
+  },
+  "tobby-slime": {
+    "quote": "Mischief is an art form.",
+    "sound": "../data/audio/cat.mp3"
+  },
+  "quantum-slime": {
+    "quote": "You are everywhere you choose to be.",
+    "sound": "../data/audio/ruins1.mp3"
+  },
+  "hunter-slime": {
+    "quote": "Silence speaks louder than roar.",
+    "sound": "../data/audio/roar.mp3"
+  }
+}

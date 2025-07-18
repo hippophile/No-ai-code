@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(
+      45deg,
+        #ea1f96 0%, 
+        #c0a5ff 50%,
+        #0156c9 100%,  
+        #da0404 100%, 
+        #eba937 100%
+    );
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: Chewy, cursive, sans-serif;
+    color: #222222;
+    text-shadow:
+    0 0 10px #ea1f96,
+    0 0 10px #c0a5ff,
+    0 0 20px #0156c9,
+    0 0 30px #da0404,
+    0 0 40px #eba937;
+
+    position: fixed;
+    top:   100px;
+    left: 50%; 
+    transform: translateX(-50%);            
+}
+
+.images {
+  display: flex;
+  margin-top: 160px;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap; 
+  
+}
+
+.slime {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.slime:hover {
+  transform: scale(1.2);
+}
