@@ -4,7 +4,7 @@
 
 ---
 
-## 🔍 Motivation
+##  Motivation
 
 I recently built, just for fun, a live website where you can create an account and post anything you want anonymously.  
 It worked great—but I **didn’t understand a thing** about all the code I copy-pasted and ran.
@@ -13,7 +13,7 @@ So what happens if I want to add a new feature and the AI **can’t** handle my 
 
 ---
 
-## 🚀 Project Goal
+##  Project Goal
 
 With this repo, I aim to gain **deep understanding** across multiple domains:
 - Web design
@@ -24,7 +24,7 @@ With this repo, I aim to gain **deep understanding** across multiple domains:
 
 ---
 
-## 📜 Rules
+##  Rules
 
 1. **No AI-generated code**  
    - I must write all code myself; no AI code snippets allowed.  
@@ -39,7 +39,7 @@ With this repo, I aim to gain **deep understanding** across multiple domains:
 
 ---
 
-## 💬 Feedback
+##  Feedback
 
 If you have ideas or suggestions, feel free to open an issue!  
 
