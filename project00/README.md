@@ -3,7 +3,7 @@
 A simple web app that helps you pick a coding project based on difficulty.
 
 
-## 🚀 Features
+##  Features
 
 - **Difficulty Filter**  
   Choose between Easy / Medium / Hard to narrow down your next challenge.
@@ -12,7 +12,7 @@ A simple web app that helps you pick a coding project based on difficulty.
 - **Fully Configurable**  
   Edit or extend the `projects.json` file to add your own ideas.
 
-## 🗂️ Tech Stack
+##  Tech Stack
 
 - **HTML5** – markup  
 - **CSS3** – styling (see `styles.css`)  
@@ -21,7 +21,7 @@ A simple web app that helps you pick a coding project based on difficulty.
 
 # Use Of Ai 
 
-## 🤖 Use of AI
+##  Use of AI
 
 - **CSS brainstorming**: AI helped me generate and refine the styling in `styles.css`.  
 - **JavaScript learning**: AI assisted with explanations of core JS concepts (this is my first vanilla-JS project).

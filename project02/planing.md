@@ -1,10 +1,10 @@
-# 🧠 Mood Tracker — Slime Rancher Style
+#  Mood Tracker — Slime Rancher Style
 
 ---
 
-## 🔍 Requirements Analysis
+##  Requirements Analysis
 
-### 🎯 Concept:
+###  Concept:
 A Slime Rancher-inspired page where:
 - The user selects their current mood by clicking on a specific slime
 - Each slime has:
@@ -16,7 +16,7 @@ A Slime Rancher-inspired page where:
 
 ---
 
-## 🧩 Components:
+##  Components:
 
 | Component        | Description                                                            |
 |------------------|------------------------------------------------------------------------|
@@ -28,9 +28,9 @@ A Slime Rancher-inspired page where:
 
 ---
 
-## 📜 Pseudocode
+##  Pseudocode
 
-### 🟢 On page load:
+###  On page load:
 
 - Show the header: `"How are you feeling today?"`
 - Display all slime icons/images on the screen
@@ -48,7 +48,7 @@ A Slime Rancher-inspired page where:
 
 ---
 
-### 🧾 Mood History:
+###  Mood History:
 
 - Display the last 3–5 selected slimes (as small icons)
 - Each one is clickable:
@@ -57,7 +57,7 @@ A Slime Rancher-inspired page where:
 
 ---
 
-### 🔁 Return to slime gallery:
+###  Return to slime gallery:
 
 - After viewing the selected slime:
   - Either after a short delay or by clicking a button (e.g., “Pick another mood”):
@@ -66,7 +66,7 @@ A Slime Rancher-inspired page where:
 
 ---
 
-## ✨ Bonus ideas:
+##  Bonus ideas:
 
 - Slime animations (e.g., sparkle, bounce)
 - Random quote button

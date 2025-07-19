@@ -14,14 +14,4 @@ document.getElementById("images").addEventListener("click", function(event) {
             })
             .catch(error => console.error("Error fetching data:", error));
     }
-
-    
-    
-
-
-
-
-
-    //let audio = new Audio("../data/audio/beat.mp3");
-    //audio.play();
 });
