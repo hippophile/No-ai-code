@@ -45,3 +45,8 @@ If you have ideas or suggestions, feel free to open an issue!
 
 
 > This README was created with the help of AI
+
+
+ Contributors' folders:  
+- [filip](./filip)  
+- [stathis](./stathis)
