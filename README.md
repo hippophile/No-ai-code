@@ -48,4 +48,5 @@ If you have ideas or suggestions, feel free to open an issue!
 
 
 
-[View the `filip` folder](./filip)
+[filip](./filip)
+[stathis](./stathis)
