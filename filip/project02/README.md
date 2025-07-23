@@ -1,76 +1,31 @@
-#  Mood Tracker — Slime Rancher Style
+## My Journey
 
----
+I started this little **Moodling** experiment purely out of love for **Slime Rancher**—that cute, carefree game that always helps me unwind. I didn’t set out to solve any grand problem; I simply wanted to dip my toes into **no-AI web development**, to build something by hand from the ground up.
 
-##  Requirements Analysis
+### Early Challenges  
+My biggest hurdle was JavaScript itself—**event listeners** in particular. Coming in with almost zero JS background, I had no clue what `addEventListener` really did or how bubbling and delegation worked. I spent many evenings puzzling over why my clicks weren’t registering, and why sometimes everything else disappeared.
 
-###  Concept:
-A Slime Rancher-inspired page where:
-- The user selects their current mood by clicking on a specific slime
-- Each slime has:
-  - A unique sound
-  - A custom quote
-  - A specific background color
-- The last selected mood is recorded in history
-- Mood history is visible and clickable to revisit previous moods
+### Breakthrough & Pride  
+The moment I finally **fetched my JSON** data and saw those quotes light up on the screen was pure magic. Suddenly the page felt alive, and I knew I’d crossed a threshold—from static HTML/CSS to a truly data-driven UI.
 
----
+### How I Debugged  
+Whenever something broke, I:  
+1. **Googled** targeted questions (e.g. “what does e.target mean?”)  
+2. Dug into MDN docs to understand each function’s role  
+3. Sprinkled plenty of `console.log` statements until the flow made sense  
 
-##  Components:
+That process taught me more about reading docs and tracing code than anything else.
 
-| Component        | Description                                                            |
-|------------------|------------------------------------------------------------------------|
-| Header           | Message: "How are you feeling today?"                                  |
-| Slime Gallery    | All available slimes with hover/click behavior                          |
-| Slime Display    | The selected slime in large view + quote + background color change      |
-| Sound System     | Hover and click sounds for each slime                                   |
-| Mood History     | The last 3–5 selected moods shown in small icons, (maybe) clickable             |
+### Skills Gained  
+- **DOM Manipulation**: Selecting, creating, and updating elements by hand  
+- **Event Handling**: Grasping click listeners and delegation  
+- **Fetch API**: Pulling in JSON, chaining `.then()`/`.catch()`  
+- **CSS Play**: Transitions, gradients, and positioning tricks  
 
----
+Now I feel confident wiring up data, user interactions, and styles from scratch—no templates, no shortcuts.
 
-##  Pseudocode
+### How It Felt  
+Each time something worked—whether hiding the other slimes, displaying a quote, or showing the “Return” button—I felt a rush of satisfaction. Seeing my idea take shape exactly as I pictured it was incredibly rewarding.
 
-###  On page load:
-
-- Show the header: `"How are you feeling today?"`
-- Display all slime icons/images on the screen
-- For each slime:
-  - On hover:
-    - Animate upward movement (lift effect)
-    - Play light bubbling sound
-  - On click:
-    - Hide all other slimes
-    - Show the selected slime in large view
-    - Show the quote that matches the mood
-    - Play a unique mood-specific sound
-    - Change the background color accordingly
-    - Add the slime to the mood history
-
----
-
-###  Mood History:
-
-- Display the last 3–5 selected slimes (as small icons)
-- Each one is clickable:
-  - On click:
-    - Re-display the full mood view (slime + quote + sound + background)
-
----
-
-###  Return to slime gallery:
-
-- After viewing the selected slime:
-  - Either after a short delay or by clicking a button (e.g., “Pick another mood”):
-    - Re-display all slime options
-    - Show the “How are you feeling today?” message again
-
----
-
-##  Bonus ideas:
-
-- Slime animations (e.g., sparkle, bounce)
-- Random quote button
-- Dark/light mode toggle
-- Use `localStorage` to save mood history between sessions
-
----
+### What’s Next  
+I’m excited to level up this hands-on learning with an **interactive to-do app**—complete with **drag & drop**, sleek styling, and persistent storage.
