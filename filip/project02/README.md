@@ -24,7 +24,7 @@ A Slime Rancher-inspired page where:
 | Slime Gallery    | All available slimes with hover/click behavior                          |
 | Slime Display    | The selected slime in large view + quote + background color change      |
 | Sound System     | Hover and click sounds for each slime                                   |
-| Mood History     | The last 3–5 selected moods shown in small icons, clickable             |
+| Mood History     | The last 3–5 selected moods shown in small icons, (maybe) clickable             |
 
 ---
 
