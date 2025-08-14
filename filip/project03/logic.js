@@ -60,14 +60,21 @@ save.addEventListener('click', () => {
     <span class="bar bar2"></span>
     <span class="bar bar1"></span>`;
   customButton.classList.add('customButton');
-  customButton.addEventListener("click", () => {
-    const colors = ['#FF5733', '#33FF57', '#3357FF', '#F0E68C', '#FF69B4'];
-    const currentColor = newTask.style.backgroundColor;
-    const nextColor = colors[(colors.indexOf(currentColor) + 1) % colors.length];
-    newTask.style.backgroundColor = nextColor;
-  }); 
-  newTask.appendChild(customButton);
 
+  const colorInput = document.createElement('input');
+  colorInput.type = 'color';
+  colorInput.style.display = 'none';
+
+  colorInput.addEventListener('input', (e) => {
+    newTask.style.backgroundColor = e.target.value;
+  });
+
+  customButton.addEventListener('click', (e) => {
+    colorInput.click();
+  });
+
+  newTask.appendChild(customButton);
+  newTask.appendChild(colorInput);
 
   formWrap.classList.add('hidden');
   // Clear the input fields after saving
