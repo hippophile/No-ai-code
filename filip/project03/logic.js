@@ -55,24 +55,30 @@ save.addEventListener('click', () => {
 
   // Button to change task color
   const customButton = document.createElement('button');
+
+  // Styling mostly
   customButton.innerHTML = `
     <span class="bar bar1"></span>
     <span class="bar bar2"></span>
     <span class="bar bar1"></span>`;
   customButton.classList.add('customButton');
 
+  // Hidden color input
   const colorInput = document.createElement('input');
-  colorInput.type = 'color';
-  colorInput.style.display = 'none';
+  colorInput.type = 'color';  // This creates a color picker input
+  colorInput.style.display = 'none'; // Hide the input by default
 
+  // When clicked, trigger the color input
+    customButton.addEventListener('click', (e) => {
+    colorInput.click();
+  });
+
+   // Do the color change
   colorInput.addEventListener('input', (e) => {
     newTask.style.backgroundColor = e.target.value;
   });
 
-  customButton.addEventListener('click', (e) => {
-    colorInput.click();
-  });
-
+  
   newTask.appendChild(customButton);
   newTask.appendChild(colorInput);
 
