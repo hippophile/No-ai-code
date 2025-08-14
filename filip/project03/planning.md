@@ -12,7 +12,7 @@
 
 ## Phase 2: Logic Design (Plain English)
 
-1. **Initialization**  
+. **Initialization**  
    When the page loads, retrieve any stored tasks and display them in the list.
 
 2. **Adding a Todo**  
@@ -23,7 +23,7 @@
 
 4. **Drag & Drop Reordering**  
    When a task is dragged and dropped to a new position, determine the original and new positions, reorder the tasks in memory, save the updated order, and refresh the display.
-
+1
 5. **Rendering Tasks**  
    Clear the current list display and rebuild it by iterating over the task list, adding each task to the interface with the relevant controls and event handlers.
 
