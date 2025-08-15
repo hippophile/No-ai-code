@@ -1,45 +1,40 @@
-# Project Reflection – Customizable Todo App
+# Project 03 - Customizable Todo App
 
-## Motivation
-I started this project to deepen my knowledge mainly in JavaScript and to experiment with other "small things" like draggable objects and customization.  
-It wasn’t a spontaneous idea, since creating a todo app is a very basic project when starting in programming.
+## Description
+A web-based todo list with drag-and-drop reordering and customizable tasks.  
+The project was created to deepen my understanding of JavaScript, especially DOM manipulation and user interaction, while exploring design and customization.
 
-I wanted it to include everything I mentioned in my planning:
-1. **Initialization**  
-   When the page loads, retrieve any stored tasks and display them in the list.
+## Technologies / Tools
+- HTML
+- CSS
+- JavaScript (Vanilla)
 
-2. **Adding a Todo**  
-   When the user submits a new task, create a task object, add it to the list, save the updated list, and refresh the display.
+## Features
+- Initialization: Load stored tasks on page load and render them.
+- Adding a Todo: Create a new task object, add it to the list, save and render.
+- Deleting or Toggling Completion: Update tasks when users delete or mark them complete, save and re-render.
+- Drag & Drop Reordering: Enable users to reorder tasks by dragging items.
+- Rendering: Clear the current display and rebuild the list with appropriate controls and event handlers.
 
-3. **Deleting or Toggling Completion**  
-   When the user deletes a task or toggles its completion status, identify the task, update the list accordingly, save the changes, and refresh the display.
+## My Experience
+This project wasn’t spontaneous; todo apps are typical starter projects. I wanted to include everything from my planning — initialization, adding, deleting, drag-and-drop and rendering.  
+Creating new DOM elements in JavaScript was the toughest part; understanding how to create, insert and update elements dynamically took time. The drag-and-drop functionality, on the other hand, came surprisingly easily.  
+I enjoyed the design process, both on paper and in CSS, because it forced me to think about user experience and aesthetic details. I found that adding components gradually and debugging methodically (instead of building everything at once) led to fewer issues and a quicker path to a working app. Seeing the draggable tasks move around was the most satisfying moment of the project.
 
-4. **Drag & Drop Reordering**  
-   When a task is dragged and dropped to a new position, determine the original and new positions, reorder the tasks in memory, save the updated order, and refresh the display.
+## Skills Gained
+- Dynamic creation and manipulation of DOM elements.
+- Implementing drag-and-drop interactions.
+- Structuring data and synchronizing it with the UI.
+- Incremental development and methodical debugging.
 
-5. **Rendering Tasks**  
-   Clear the current list display and rebuild it by iterating over the task list, adding each task to the interface with the relevant controls and event handlers.
+## Next Steps / Possible Improvements
+- Add task history or an undo feature.
+- Implement persistent storage (e.g. local storage) to save tasks across sessions.
+- Add categories or labels for filtering tasks.
+- Improve accessibility (e.g. keyboard navigation and ARIA attributes).
 
-The only thing left to implement is the task history, which I already know how to do since I’ve done it in older projects.
+## AI Usage
+No — all logic and debugging were done manually, and AI was only used for clarification of concepts when necessary.
 
-## Challenges
-I got stuck for quite a while with creating new DOM elements in JavaScript — it took me some time to fully understand it.  
-On the other hand, the draggable object functionality was quite easy to grasp.
-
-## Design
-I enjoyed the design process — both on paper and in CSS — because my skills gave me full creative freedom.  
-This pushed me to improve in order to achieve a result that would truly satisfy me.
-
-## Debugging and Strategy
-Debugging was straightforward.  
-I didn’t face any serious issues because I added each component gradually, with methodical and strategic thinking.  
-I didn’t do everything at once — by following a subtractive thinking approach, everything worked relatively quickly.
-
-## Most Satisfying Moment
-The most satisfying part was:
-- Getting the draggable feature to work.
-- Creating a new task without breaking the rest of the functionality.
-
-## Next Steps
-I will soon add task history.  
-In the end, this was a simple but very educational todo list.
+## Date
+August 2025

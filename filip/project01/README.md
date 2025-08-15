@@ -96,3 +96,6 @@ From now on, I’m switching to what I call `airplane` coding —
 Just me, my thoughts, my editor.  
 No autopilot. No shortcuts.  
 Just real learning, one step at a time.
+
+## Date
+August 2025
